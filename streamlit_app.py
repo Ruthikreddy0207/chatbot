@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 st.set_page_config(page_title="Small LLM Chatbot (SiS + Cortex)", page_icon="🤖", layout="centered")
-st.title("🤖 ChatBot")
+st.title("🤖 ChatBot 🤖 ")
 
 SMALL_MODEL = "llama3-8b"
 SYSTEM_PROMPT = "Answer in English, concisely, with brief code when useful."
