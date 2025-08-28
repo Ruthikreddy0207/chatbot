@@ -3,12 +3,6 @@ from snowflake.snowpark.context import get_active_session
 import json
 
 
-
-connection_parameters = st.secrets["connections"]["my_example_connection"]
-session = Session.builder.configs(connection_parameters).create()
-
-
-
 st.set_page_config(page_title="Small LLM Chatbot (SiS + Cortex)", page_icon="🤖", layout="centered")
 st.title("🤖 ChatBot")
  
